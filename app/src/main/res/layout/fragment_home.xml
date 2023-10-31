@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.homeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sati" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samrat Ashok Technological Institute"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/title_size"
+                android:fontFamily="@font/nunitobold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_gravity="center"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/text_size"
+                android:fontFamily="@font/nunitoregular"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/darkcolor">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departments"
+                        android:layout_gravity="center"
+                        android:textColor="@color/grey2"
+                        android:textSize="@dimen/title_size"
+                        android:fontFamily="@font/nunitobold"/>
+                    
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mechanical"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Electical"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Civil"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Electronics"
+                                android:layout_gravity="center"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/title_size"
+                                android:fontFamily="@font/nunitolight"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

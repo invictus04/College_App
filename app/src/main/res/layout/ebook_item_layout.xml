@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_margin="7dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="20dp"
+            android:maxWidth="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/pdf_svgrepo_com"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebookName"
+            android:text="Data strucuture and Algorithm"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size"
+            android:fontFamily="@font/nunitoregular"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EbookDownload"
+            android:src="@drawable/download"
+            android:layout_marginLeft="-30dp"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

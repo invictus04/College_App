@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">College App</string>
+
+    <string name="bold" tools:ignore="ReferenceType"> @font/nunitobold </string>
+    <string name="light" tools:ignore="ReferenceType"> @font/nunitolight </string>
+    <string name="regular" tools:ignore="ReferenceType"> @font/nunitoregular </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_college">Samrat Ashok Technological Institute (SATI) is a Grant-in-Aid Autonomous college in Vidisha in the central Indian state of Madhya Pradesh.[1] It was established by Late Maharaja Jiwajirao Scindia on November 1st 1960, with a donation from Gangajali Trust fund. It is an autonomous institute, which is funded by Government of Madhya Pradesh and managed by the Maharaja Jiwaji Rao Education Society chaired by Honable Shrimant Jyotiraditya Madhavrao Scindia.</string>
+</resources>
